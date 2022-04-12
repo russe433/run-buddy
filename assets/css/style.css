@@ -228,6 +228,8 @@ header h1 {
        margin-bottom: 35px;
        color: #024e76;
    }
+ 
+ /*REACH OUT STYLES START*/
    .contact{
        text-align: center;
        background: #024e76;
@@ -236,7 +238,7 @@ header h1 {
        color: #fce138;
    }
 
-   iframe{
+   .contact-info iframe{
        width: 400px;
        height: 400px;
    }
@@ -262,3 +264,4 @@ header h1 {
   .contact-info a {
     color: #fce138;
   }
+  /*REACH OUT STYLES END*/
