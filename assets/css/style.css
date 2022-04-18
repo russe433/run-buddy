@@ -232,22 +232,30 @@ header h1 {
    }
 
    .trainer{
-       width: 900px;
-       margin: 0 auto 30px auto;
+       width: 100%;
+       margin: 0 auto;
        background: #024e76;
        color: #fce138;
        overflow: auto;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
    }
 
    .trainer img {
-       width: 35%;
-       float: left;
+       width: 100%;
    }
 
+   .trainer-bio h3{
+       font-size: 28px;
+   }
+   
+   .trainer-bio h4{
+       font-size: 22px;
+       margin-bottom: 15px;
+   }
    .trainer-bio {
-       padding: 35px;
-       float: left;
-       width: 65%;
+       padding: 25px;
    }
 
    .text-left{
